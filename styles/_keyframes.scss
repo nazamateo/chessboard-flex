@@ -1,6 +1,6 @@
 #pawnh {
     position: relative;
-    animation: mymove 2s forwards;
+    animation: mymove 2s 4s forwards;
 }
 
 @keyframes mymove {
@@ -15,7 +15,7 @@
 
 #pawn5 {
     position: relative;
-    animation: mymove1 2s 2s forwards;
+    animation: mymove1 2s 6s forwards;
 }
 
 @keyframes mymove1 {
@@ -30,7 +30,7 @@
 
 #pawni {
     position: relative;
-    animation: mymove3 2s 4s forwards;
+    animation: mymove3 2s 8s forwards;
 }
 
 @keyframes mymove3 {
@@ -45,7 +45,7 @@
 
 #queen {
     position: relative;
-    animation: mymove4 2s 6s forwards;
+    animation: mymove4 2s 10s forwards;
 }
 
 @keyframes mymove4 {

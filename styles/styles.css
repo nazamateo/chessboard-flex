@@ -18,13 +18,8 @@ body {
   font-family: "Signika", sans-serif;
 }
 
-.chessboard {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-}
-
 .board {
+  margin: auto;
   height: 70vw;
   width: 70vw;
   max-width: 70vh;
@@ -134,7 +129,7 @@ body {
 
 #pawnh {
   position: relative;
-  animation: mymove 2s forwards;
+  animation: mymove 2s 4s forwards;
 }
 
 @keyframes mymove {
@@ -147,7 +142,7 @@ body {
 }
 #pawn5 {
   position: relative;
-  animation: mymove1 2s 2s forwards;
+  animation: mymove1 2s 6s forwards;
 }
 
 @keyframes mymove1 {
@@ -160,7 +155,7 @@ body {
 }
 #pawni {
   position: relative;
-  animation: mymove3 2s 4s forwards;
+  animation: mymove3 2s 8s forwards;
 }
 
 @keyframes mymove3 {
@@ -173,7 +168,7 @@ body {
 }
 #queen {
   position: relative;
-  animation: mymove4 2s 6s forwards;
+  animation: mymove4 2s 10s forwards;
 }
 
 @keyframes mymove4 {

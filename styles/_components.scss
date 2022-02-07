@@ -29,13 +29,9 @@ body{
 
 }
 
-.chessboard{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-}
 
 .board{
+    margin: auto;
     height: 70vw;
     width: 70vw;
     max-width: 70vh;
